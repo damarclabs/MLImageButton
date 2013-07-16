@@ -24,5 +24,5 @@ btn1.imageName = 'like'
 使用 Cocoapods, 在 Podfile 里面加入
 
 ```ruby
-pod 'MLImageButton', github: 'MacLabs/MLImageButton'
+pod 'MLImageButton', git: 'https://github.com/MacLabs/MLImageButton.git'
 ```
