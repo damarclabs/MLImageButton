@@ -1,22 +1,12 @@
-//
-//  XMImageButton.m
-//  Xiami
-//
-//  Created by Jason Lee on 13-6-4.
-//  Copyright (c) 2013年 taobao. All rights reserved.
-//
+#import "MLImageButton.h"
 
-#import "XMImageButton.h"
+@implementation MLImageButton
 
-@implementation XMImageButton
-
-- (id)initWithFrame:(NSRect)frame
-{
-    self = [super initWithFrame:frame];
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
     if (self) {
         [self updateTrackingAreas];
     }
-    
     return self;
 }
 

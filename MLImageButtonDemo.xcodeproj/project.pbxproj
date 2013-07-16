@@ -12,13 +12,13 @@
 		96771293179535F5008330B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96771292179535F5008330B3 /* main.m */; };
 		9677129A179535F5008330B3 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96771299179535F5008330B3 /* MLAppDelegate.m */; };
 		9677129D179535F5008330B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9677129B179535F5008330B3 /* MainMenu.xib */; };
-		967712A61795360D008330B3 /* MLImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 967712A51795360D008330B3 /* MLImageButton.m */; };
 		967712AD1795391F008330B3 /* btn_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712A71795391F008330B3 /* btn_down.png */; };
 		967712AE1795391F008330B3 /* btn_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712A81795391F008330B3 /* btn_down@2x.png */; };
 		967712AF1795391F008330B3 /* btn_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712A91795391F008330B3 /* btn_hover.png */; };
 		967712B01795391F008330B3 /* btn_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712AA1795391F008330B3 /* btn_hover@2x.png */; };
 		967712B11795391F008330B3 /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712AB1795391F008330B3 /* btn_normal.png */; };
 		967712B21795391F008330B3 /* btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967712AC1795391F008330B3 /* btn_normal@2x.png */; };
+		967712B61795415F008330B3 /* MLImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 967712B51795415F008330B3 /* MLImageButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +34,14 @@
 		96771298179535F5008330B3 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
 		96771299179535F5008330B3 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
 		9677129C179535F5008330B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		967712A41795360D008330B3 /* MLImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLImageButton.h; sourceTree = "<group>"; };
-		967712A51795360D008330B3 /* MLImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLImageButton.m; sourceTree = "<group>"; };
 		967712A71795391F008330B3 /* btn_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_down.png; sourceTree = "<group>"; };
 		967712A81795391F008330B3 /* btn_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_down@2x.png"; sourceTree = "<group>"; };
 		967712A91795391F008330B3 /* btn_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_hover.png; sourceTree = "<group>"; };
 		967712AA1795391F008330B3 /* btn_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_hover@2x.png"; sourceTree = "<group>"; };
 		967712AB1795391F008330B3 /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_normal.png; sourceTree = "<group>"; };
 		967712AC1795391F008330B3 /* btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_normal@2x.png"; sourceTree = "<group>"; };
+		967712B41795415F008330B3 /* MLImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLImageButton.h; sourceTree = "<group>"; };
+		967712B51795415F008330B3 /* MLImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLImageButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		9677127A179535F5008330B3 = {
 			isa = PBXGroup;
 			children = (
-				967712A31795360D008330B3 /* MLImageButton */,
+				967712B31795415F008330B3 /* MLImageButton */,
 				9677128C179535F5008330B3 /* MLImageButtonDemo */,
 				96771285179535F5008330B3 /* Frameworks */,
 				96771284179535F5008330B3 /* Products */,
@@ -121,14 +121,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		967712A31795360D008330B3 /* MLImageButton */ = {
+		967712B31795415F008330B3 /* MLImageButton */ = {
 			isa = PBXGroup;
 			children = (
-				967712A41795360D008330B3 /* MLImageButton.h */,
-				967712A51795360D008330B3 /* MLImageButton.m */,
+				967712B41795415F008330B3 /* MLImageButton.h */,
+				967712B51795415F008330B3 /* MLImageButton.m */,
 			);
-			name = MLImageButton;
-			path = MLImageButtonDemo/MLImageButton;
+			path = MLImageButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +202,7 @@
 			files = (
 				96771293179535F5008330B3 /* main.m in Sources */,
 				9677129A179535F5008330B3 /* MLAppDelegate.m in Sources */,
-				967712A61795360D008330B3 /* MLImageButton.m in Sources */,
+				967712B61795415F008330B3 /* MLImageButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +332,7 @@
 				967712A2179535F5008330B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
