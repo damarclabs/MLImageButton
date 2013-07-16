@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MLImageButtonDemo' target in the 'MLImageButtonDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
