@@ -18,3 +18,11 @@ btn1.imageName = 'like'
 ```
 
 这么一来，界面上显示的按钮就会实现鼠标经过、按下、开启的状态，并用对应的图片显示。
+
+## 安装
+
+使用 Cocoapods, 在 Podfile 里面加入
+
+```ruby
+pod 'MLImageButton', github: 'MacLabs/MLImageButton'
+```
